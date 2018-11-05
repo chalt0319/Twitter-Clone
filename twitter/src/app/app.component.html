@@ -1,8 +1,16 @@
 <div class="header">
   Welcome!!
 </div>
+<div class="form">
+  <input type="text" #post ngModel>
+  <span (click)="addPost(post.value)">Submit</span>
+
+</div>
 <div class="feed">
-This is the feed...
+  <ul>
+    <li *ngFor="let post of postArray">{{post}}</li>
+  </ul>
+
 </div>
 
 

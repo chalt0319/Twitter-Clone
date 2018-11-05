@@ -9,8 +9,17 @@ export class AppComponent {
   postArray=[]
 
   addPost(value){
-    this.postArray.push(value)
-    console.log(this.postArray)
+    let hash = {text: value, likes: 0}
+    this.postArray.push(hash)
+  }
+
+  likePost(post){
+
+    this.postArray.map(function(thePost) {
+      if (thePost.text === post.text){
+        return thePost.likes += 1
+      }
+    })
   }
 
 }

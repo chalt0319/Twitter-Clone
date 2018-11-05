@@ -17,9 +17,9 @@
 .submit {
   text-align: center;
   width: 98%;
-  background: #00b3b3;
+  background: #4d94ff;
   padding: 2px;
-  border: 2px solid #00b3b3;
+  border: 2px solid #4d94ff;
   border-radius: 30px;
   margin-top: 3px;
 }
@@ -39,8 +39,8 @@
 }
 
 .form.feed-box {
-  background: #b3ffff;
-  border: 2px solid #b3ffff;
+  background: #b3ecff;
+  border: 2px solid #b3ecff;
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 20px;
@@ -51,4 +51,17 @@ textarea {
   padding: 5px;
   border-radius: 5px;
   border-color: #00b3b3;
+}
+
+.heart {
+  width: 20px;
+}
+
+.heart-div {
+  margin-top: 7px;
+}
+
+.likes {
+  position: absolute;
+  margin-left: 6px;
 }

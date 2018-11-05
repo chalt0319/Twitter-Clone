@@ -7,7 +7,10 @@
     <div (click)="addPost(post.value)" (click)="post.value = ''" class="submit">Submit</div>
   </div>
   <div class="feed-box" *ngFor="let post of postArray">
-    {{post}}
+    {{post.text}}
+    <div class="heart-div">
+      <img class="heart" src="https://www.freeiconspng.com/uploads/heart-pink-simple-clip-art-27.png" alt="Heart" (click)="likePost(post)"><span class="likes">{{post.likes}}</span>
+    </div>
   </div>
 </div>
 

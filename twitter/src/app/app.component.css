@@ -1,4 +1,7 @@
 #header {
+  font-family: Trebuchet MS, sans-serif;
+  font-variant: small-caps;
+  font-size: 20px;
   width: 100%;
   background: white;
   text-align: center;
@@ -14,10 +17,11 @@
 .submit {
   text-align: center;
   width: 98%;
-  background: blue;
+  background: #00b3b3;
   padding: 2px;
-  border: 2px solid blue;
+  border: 2px solid #00b3b3;
   border-radius: 30px;
+  margin-top: 3px;
 }
 
 .feed {
@@ -26,8 +30,17 @@
 }
 
 .feed-box {
-  background: grey;
-  border: 2px solid grey;
+  background: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  border-bottom: 1px solid #d9d9d9;
+  /* margin-bottom: 20px; */
+}
+
+.form.feed-box {
+  background: #b3ffff;
+  border: 2px solid #b3ffff;
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 20px;
@@ -36,4 +49,6 @@
 textarea {
   width: 97%;
   padding: 5px;
+  border-radius: 5px;
+  border-color: #00b3b3;
 }

@@ -5,7 +5,6 @@
   <div class="form feed-box">
     <textarea name="name" rows="5" cols="80" placeholder="What's on your mind?" #post ngModel></textarea>
     <div (click)="addPost(post.value)" (click)="post.value = ''" class="submit">Submit</div>
-
   </div>
   <div class="feed-box" *ngFor="let post of postArray">
     {{post}}

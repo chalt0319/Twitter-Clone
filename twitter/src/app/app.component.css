@@ -1,6 +1,5 @@
 #header {
   font-family: Trebuchet MS, sans-serif;
-  font-variant: small-caps;
   font-size: 20px;
   width: 100%;
   background: white;
@@ -9,10 +8,6 @@
   margin: -10px -10px 10px -10px;
   border-bottom: 1px solid grey;
 }
-
-/* .form {
-  text-align: center;
-} */
 
 .submit {
   text-align: center;
@@ -35,7 +30,6 @@
   border-radius: 5px;
   padding: 10px;
   border-bottom: 1px solid #d9d9d9;
-  /* margin-bottom: 20px; */
 }
 
 .form.feed-box {
@@ -51,6 +45,7 @@ textarea {
   padding: 5px;
   border-radius: 5px;
   border-color: #00b3b3;
+  font-size: 13px;
 }
 
 .heart {

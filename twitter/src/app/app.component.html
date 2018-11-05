@@ -10,6 +10,8 @@
     {{post.text}}
     <div class="heart-div">
       <img class="heart" src="https://www.freeiconspng.com/uploads/heart-pink-simple-clip-art-27.png" alt="Heart" (click)="likePost(post)"><span class="likes">{{post.likes}}</span>
+      <img class="comment" (click)="showing = !showing" src="http://www.clker.com/cliparts/e/D/y/m/U/t/speech-bubble-hi.png" alt="Comment">
+      <input class="comment-input" type="text" *ngIf="!!showing">
     </div>
   </div>
 </div>

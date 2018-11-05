@@ -29,7 +29,7 @@
   border: 2px solid white;
   border-radius: 5px;
   padding: 10px;
-  border-bottom: 1px solid #d9d9d9;
+  border-bottom: 1px solid #f2f2f2;
 }
 
 .form.feed-box {
@@ -52,6 +52,14 @@ textarea {
   width: 20px;
 }
 
+.comment {
+  width: 18px;
+  height: 20px;
+  position: absolute;
+  /* left: 30px; */
+  margin-left: 30px;
+}
+
 .heart-div {
   margin-top: 7px;
 }
@@ -59,4 +67,9 @@ textarea {
 .likes {
   position: absolute;
   margin-left: 6px;
+}
+
+.comment-input {
+  position: absolute;
+  margin-left: 55px;
 }

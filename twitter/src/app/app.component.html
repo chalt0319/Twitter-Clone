@@ -1,17 +1,15 @@
-<div class="header">
+<div id="header">
   Welcome!!
 </div>
-<div class="form">
-  <input type="text" #post ngModel>
-  <span (click)="addPost(post.value)">Submit</span>
-
-</div>
 <div class="feed">
-  <ul>
-    <li *ngFor="let post of postArray">{{post}}</li>
-  </ul>
+  <div class="form feed-box">
+    <textarea name="name" rows="5" cols="80" placeholder="What's on your mind?" #post ngModel></textarea>
+    <div (click)="addPost(post.value)" (click)="post.value = ''" class="submit">Submit</div>
 
+  </div>
+  <div class="feed-box" *ngFor="let post of postArray">
+    {{post}}
+  </div>
 </div>
-
 
 <!-- <router-outlet></router-outlet> -->

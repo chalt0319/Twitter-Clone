@@ -1,0 +1,39 @@
+#header {
+  width: 100%;
+  background: white;
+  text-align: center;
+  padding: 10px;
+  margin: -10px -10px 10px -10px;
+  border-bottom: 1px solid grey;
+}
+
+/* .form {
+  text-align: center;
+} */
+
+.submit {
+  text-align: center;
+  width: 98%;
+  background: blue;
+  padding: 2px;
+  border: 2px solid blue;
+  border-radius: 30px;
+}
+
+.feed {
+  margin: 0 auto;
+  width: 40%;
+}
+
+.feed-box {
+  background: grey;
+  border: 2px solid grey;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 97%;
+  padding: 5px;
+}

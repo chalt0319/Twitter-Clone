@@ -9,7 +9,7 @@ export class AppComponent {
   postArray=[]
 
   addPost(value, image, link){
-    let hash = {text: value, likes: 0, image: image, link: link}
+    let hash = {text: value, likes: 0, image: image, link: link, comments: []}
     this.postArray.push(hash)
   }
 
@@ -18,6 +18,14 @@ export class AppComponent {
     this.postArray.map(function(thePost) {
       if (thePost === post){
         return thePost.likes += 1
+      }
+    })
+  }
+
+  addComment(post, comment){
+    this.postArray.map(function(thePost) {
+      if (thePost === post){
+        return thePost.comments.push(comment)
       }
     })
   }

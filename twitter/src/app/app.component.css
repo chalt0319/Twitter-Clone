@@ -95,3 +95,23 @@ textarea {
   width: 99%;
   margin-top: 5px;
 }
+
+.link {
+  margin-top: 7px;
+}
+
+.link-img {
+  width: 30px;
+  position: relative;
+  top: 3px;
+}
+
+.post-link {
+  color: blue;
+  text-decoration: underline;
+}
+
+.post-link:hover {
+  cursor: pointer;
+
+}

@@ -126,12 +126,3 @@ textarea {
   position: relative;
   top: 3px;
 }
-
-.post-link {
-  color: blue;
-  text-decoration: underline;
-}
-
-.post-link:hover {
-  cursor: pointer;
-}

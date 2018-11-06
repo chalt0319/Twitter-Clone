@@ -16,8 +16,8 @@
       <div *ngIf="post.image">
         <img class="post-image" src="{{post.image}}" alt="image">
       </div>
-      <div *ngIf="post.link">
-        <p class="post-link">{{post.link}}</p>
+      <div class="post-link" *ngIf="post.link">
+        <a href="{{post.link}}" target="_blank" >{{post.shortLink}}</a>
       </div>
 
     <div class="heart-div">

@@ -4,10 +4,16 @@
 <div class="feed">
   <div class="form feed-box">
     <textarea name="name" rows="5" cols="80" placeholder="What's on your mind?" #post ngModel></textarea>
-    <div (click)="addPost(post.value)" (click)="post.value = ''" class="submit">Submit</div>
+    <img class="camera" src="https://cdn.pixabay.com/photo/2012/04/11/17/31/camera-29061_960_720.png" alt="camera">
+    <input class="url-input" type="text" placeholder="Image url" #url ngModel>
+
+    <div (click)="addPost(post.value, url.value)" (click)="post.value = ''" class="submit">Submit</div>
   </div>
   <div class="feed-box" *ngFor="let post of postArray">
     {{post.text}}
+    <div class="">
+      <img src="{{post.image}}" alt="image">
+    </div>
     <div class="heart-div">
       <img class="heart" src="https://www.freeiconspng.com/uploads/heart-pink-simple-clip-art-27.png" alt="Heart" (click)="likePost(post)"><span class="likes">{{post.likes}}</span>
       <img class="comment" (click)="showing = !showing" src="http://www.clker.com/cliparts/e/D/y/m/U/t/speech-bubble-hi.png" alt="Comment">

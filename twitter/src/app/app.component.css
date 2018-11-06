@@ -16,7 +16,8 @@
   padding: 2px;
   border: 2px solid #4d94ff;
   border-radius: 30px;
-  margin-top: 3px;
+  margin-top: 12px;
+  /* margin-left: 68%; */
 }
 
 .feed {
@@ -29,7 +30,7 @@
   border: 2px solid white;
   border-radius: 5px;
   padding: 10px;
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px solid #d9d9d9;
 }
 
 .form.feed-box {
@@ -44,7 +45,7 @@ textarea {
   width: 97%;
   padding: 5px;
   border-radius: 5px;
-  border-color: #00b3b3;
+  border-color: #4d94ff;
   font-size: 13px;
 }
 
@@ -72,4 +73,20 @@ textarea {
 .comment-input {
   position: absolute;
   margin-left: 55px;
+}
+
+.camera {
+  width: 30px;
+  position: relative;
+  top: 8px;
+}
+
+.url-input {
+  margin-left: 5px;
+  border-radius: 3px;
+  border-color: #4d94ff;
+  border-width: thin;
+  width: 91%;
+  height: 17px;
+  font-size: 12px;
 }

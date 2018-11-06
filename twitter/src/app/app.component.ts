@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   postArray=[]
 
-  addPost(value){
-    let hash = {text: value, likes: 0}
+  addPost(value, image){
+    let hash = {text: value, likes: 0, image: image}
     this.postArray.push(hash)
   }
 

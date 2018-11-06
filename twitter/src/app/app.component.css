@@ -17,7 +17,6 @@
   border: 2px solid #4d94ff;
   border-radius: 30px;
   margin-top: 12px;
-  /* margin-left: 68%; */
 }
 
 .feed {
@@ -57,7 +56,6 @@ textarea {
   width: 18px;
   height: 20px;
   position: absolute;
-  /* left: 30px; */
   margin-left: 30px;
 }
 
@@ -89,4 +87,9 @@ textarea {
   width: 91%;
   height: 17px;
   font-size: 12px;
+}
+
+.post-image {
+  width: 99%;
+  margin-top: 5px;
 }

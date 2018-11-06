@@ -9,7 +9,7 @@ export class AppComponent {
   postArray=[]
 
   addPost(value, image, link){
-    let hash = {text: value, likes: 0, image: image, link: link, comments: []}
+    let hash = {text: value, likes: 0, image: image, link: link, comments: [], boolean: false}
     this.postArray.push(hash)
   }
 

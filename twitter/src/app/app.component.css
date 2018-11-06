@@ -55,7 +55,7 @@ textarea {
 .heart {
   position: relative;
   width: 20px;
-  top: 30px;
+  top: 29px;
 }
 
 .likes {
@@ -89,6 +89,11 @@ textarea {
   margin-left: 21%;
   width: 69%;
   bottom: 10px;
+}
+
+.comment-div {
+  margin-left: 25px;
+  margin-top: 5px;
 }
 
 .camera {

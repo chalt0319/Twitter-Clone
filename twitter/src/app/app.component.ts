@@ -16,7 +16,7 @@ export class AppComponent {
   likePost(post){
 
     this.postArray.map(function(thePost) {
-      if (thePost.text === post.text){
+      if (thePost === post){
         return thePost.likes += 1
       }
     })

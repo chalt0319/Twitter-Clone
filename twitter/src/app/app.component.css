@@ -69,8 +69,10 @@ textarea {
 }
 
 .comment-input {
-  position: absolute;
-  margin-left: 55px;
+  position: relative;
+  margin-left: 13%;
+  width: 81%;
+  bottom: 5px;
 }
 
 .camera {

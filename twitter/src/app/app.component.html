@@ -22,7 +22,8 @@
 
     <div class="heart-div">
       <img class="heart" src="https://image.flaticon.com/icons/png/512/275/275882.png" alt="Heart" (click)="likePost(post)"><span class="likes">{{post.likes}}</span>
-      <img class="comment" src="http://www.clker.com/cliparts/e/D/y/m/U/t/speech-bubble-hi.png" alt="Comment" (click)="post.boolean = !post.boolean"> <span class="comments">{{post.comments.length}}</span> <span><input class="comment-input" type="text" placeholder="add comment..." #comment ngModel></span>
+        <img class="comment" src="http://www.clker.com/cliparts/e/D/y/m/U/t/speech-bubble-hi.png" alt="Comment" (click)="post.boolean = !post.boolean">
+       <span class="comments">{{post.comments.length}}</span> <span><input class="comment-input" type="text" placeholder="add comment..." #comment ngModel></span>
       <img class="check" src="https://cdn.pixabay.com/photo/2017/01/13/01/22/ok-1976099_960_720.png" alt="check" (click)="addComment(post, comment.value)" (click)="comment.value = ''">
     </div>
     <div class="" *ngIf="post.boolean">

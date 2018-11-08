@@ -13,11 +13,12 @@
 .submit {
   text-align: center;
   width: 98%;
-  background: #4d94ff;
+  background: rgb(0, 200, 246);
   padding: 2px;
-  border: 2px solid #4d94ff;
+  border: 2px solid rgb(0, 200, 246);
   border-radius: 30px;
   margin-top: 12px;
+  color: white;
 }
 
 .feed {
@@ -34,8 +35,8 @@
 }
 
 .form.feed-box {
-  background: #b3ecff;
-  border: 2px solid #b3ecff;
+  background: rgb(227, 248, 254);
+  border: 2px solid rgb(227, 248, 254);
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 20px;
@@ -61,7 +62,7 @@ textarea {
 
 .likes {
   position: relative;
-  margin-left: 6px;
+  margin-left: 2%;
   top: 25px;
 }
 
@@ -69,7 +70,7 @@ textarea {
   position: relative;
   width: 18px;
   height: 20px;
-  margin-left: 20px;
+  margin-left: 4%;
   top: 30px;
 }
 

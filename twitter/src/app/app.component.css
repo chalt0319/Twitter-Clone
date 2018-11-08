@@ -7,7 +7,7 @@
   padding: 10px;
   margin: -10px -10px 10px -10px;
   border-bottom: 1px solid #a6a6a6;
-  color: #4d94ff;
+  color: rgb(0, 200, 246);
 }
 
 .submit {
@@ -46,7 +46,7 @@ textarea {
   width: 97%;
   padding: 5px;
   border-radius: 5px;
-  border-color: #4d94ff;
+  border-color: rgb(0, 200, 246);
   font-size: 13px;
 }
 
@@ -107,7 +107,7 @@ textarea {
 .url-input {
   margin-left: 5px;
   border-radius: 3px;
-  border-color: #4d94ff;
+  border-color: rgb(0, 200, 246);
   border-width: thin;
   width: 91%;
   height: 17px;
